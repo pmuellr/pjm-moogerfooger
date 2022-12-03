@@ -21,44 +21,92 @@ will change to that, so you can create a Live preset for those.
 usage
 ================================================================================
 
-Copy the `*.amxd` files to your computer, and add to Ableton Live.
+Download the [latest version](https://github.com/pmuellr/pjm-moogerfooger/archive/refs/heads/main.zip).
+
+Extract the contents of the archive, and drag the `*.amxd` files to your 
+User Library.  Or whatever it is you do with your `*.amxd` files.
 
 details
 ================================================================================
+
+--------------------------------------------------------------------------------
 
 pjm-MF-101S Filter
 --------------------------------------------------------------------------------
 
 ![pjm-MF-101S Ableton device](./images/pjm-MF-101S.png)
 
-The auto-mapped parameters for the devices are set up as the following banks
-(each row is a bank):
+The Link Gains, Envelope Type, and Envelope Response controls are the
+toggle buttons under the Output knob.
+
+VST parameter number, parameter names, with associated Moog name:
+
+| param  | pjm name | Moog name |
+| ------ | -------- | --------- |
+|    2   | drive    | Drive |
+|    3   | output   | Output Level |
+|    4   | link     | Link Gains |
+|    5   | env      | Envelope Amount |
+|    6   | follow   | Follow Rate |
+|    7   | mix      | Mix |
+|    8   | cutoff   | Cutoff |
+|    9   | slope    | Slope |
+|   10   | res      | Resonance |
+|   11   | type     | Envelope Type |
+|   12   | resp     | Envelope Response |
+
+Auto-mapped parameters as the following banks:
 
 | control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
 | env         | follow        | mix          |             | drive         | output      | cutoff        | res        |
 | slope       | link          | type         | resp        |               |             |               |            |
 
-The parameter names, with associated Moog name and VST parameter number.
+--------------------------------------------------------------------------------
+
+pjm-MF-102S Ring Modulator
+--------------------------------------------------------------------------------
+
+![pjm-MF-102S Ableton device](./images/pjm-MF-102S.png)
+
+The LFO Sync control is the toggle to the left of the LFO Waveform
+button. The Link Gains and LFO Polarity controls are the toggles beneath
+the Output knob.  The Carrier Type control is the menu below the LFO
+Polarity toggle.
+
+VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name | Moog name |
 | ------ | -------- | --------- |
-|    5   | env      | Envelope Amount |
-|    6   | follow   | Envelope Follow Rate |
-|    7   | mix      | Envelope Mix |
-|    2   | drive    | Drive |
-|    3   | output   | Output |
-|    8   | cutoff   | Filter Cutoff |
-|    9   | slope    | Filter 2-Pole / 4-Pole Switch |
-|   10   | res      | Filter Resonance |
-|    4   | link     | Link |
-|   11   | type     | Envelope Mono / Stereo |
-|   12   | resp     | Response Exponential / Smooth |
+|      2 | drive    | Drive |
+|      3 | output   | Output Level |
+|      4 | link     | Link Gains |
+|      5 | lfo      | LFO Amount |
+|      6 | waveform | LFO Waveform |
+|      7 | rate     | LFO Rate |
+|      8 | sync     | LFO Sync |
+|      9 | mix      | Mix |
+|     10 | range    | Frequency Range |
+|     11 | freq     | Frequency |
+|     12 | carrier  | Carrier Type |
+|     13 | polarity | LFO Polarity |
 
 
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| lfo         | waveform      | rate         | sync        | drive         | output      | mix           | freq       |
+| range       | link          | carrier      | polarity    |               |             |               |            |
+
+--------------------------------------------------------------------------------
 
 changelog
 ================================================================================
+
+version 2022.12.03
+
+- finished MF-101S and MF-102S
 
 version 2022.11.30
 
