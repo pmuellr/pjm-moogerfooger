@@ -101,6 +101,42 @@ Auto-mapped parameters as the following banks:
 
 --------------------------------------------------------------------------------
 
+pjm-MF-103S 12-Stage Phaser
+--------------------------------------------------------------------------------
+
+![pjm-MF-103S Ableton device](./images/pjm-MF-103S.png)
+
+The LFO Sync control is the toggle to the left of the LFO Range
+button. The Link Gains and LFO Type controls are the toggles beneath
+the Output knob.  The Output Mode control is the menu below the LFO
+Type toggle.
+
+VST parameter number, parameter names, with associated Moog name:
+
+| param  | pjm name | Moog name |
+| ------ | -------- | --------- |
+|      2 | drive    | Drive |
+|      3 | output   | Output Level |
+|      4 | link     | Link Gains |
+|      5 | lfo      | LFO Amount |
+|      6 | range    | LFO Range |
+|      7 | rate     | LFO Rate |
+|      8 | sync     | LFO Sync |
+|      9 | sweep    | Sweep |
+|     10 | stages   | Stages |
+|     11 | res      | Resonance |
+|     12 | mode     | Output Mode |
+|     13 | type     | LFO Type |
+
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| lfo         | range         | rate         | sync        | drive         | output      | sweep         | res        |
+| stages      | link          | mode         | type        |               |             |               |            |
+
+--------------------------------------------------------------------------------
+
 changelog
 ================================================================================
 
