@@ -134,10 +134,72 @@ Auto-mapped parameters as the following banks:
 | lfo         | range         | rate         | sync        | drive         | output      | sweep         | res        |
 | stages      | link          | mode         | type        |               |             |               |            |
 
+pjm-MF-104S Analog Delay
+--------------------------------------------------------------------------------
+
+![pjm-MF-104S Ableton device](./images/pjm-MF-104S.png)
+
+xxx The LFO Sync control is the toggle to the left of the LFO Range
+button. The Link Gains and LFO Type controls are the toggles beneath
+the Output knob.  The Output Mode control is the menu below the LFO
+Type toggle.
+
+VST parameter number, parameter names, with associated Moog name:
+
+| param  | pjm name | Moog name |
+| ------ | -------- | --------- |
+|      2 | drive    | Drive |
+|      3 | output   | Output Level |
+|      4 | link     | Link Gains |
+|      5 | lfo      | LFO Amount |
+|      6 | range    | LFO Range |
+|      7 | rate     | LFO Rate |
+|      8 | sync     | LFO Sync |
+|      9 | sweep    | Sweep |
+|     10 | stages   | Stages |
+|     11 | res      | Resonance |
+|     12 | mode     | Output Mode |
+|     13 | type     | LFO Type |
+
+
+| param  | pjm name      | Moog name |
+| ------ | ------------- | --------- |
+|      2 | drive         |  Drive              
+|      3 | output        |  Output Level                     
+|      4 | link          |  Link Gains                   
+|      5 | mix           |  Mix            
+|      6 | time          |  Time             
+|      7 | range         |  Range              
+|      8 | feedback      |  Feedback                 
+|      9 | delaySync     |  Delay Sync                   
+|     10 | lfoWaveform   |  LFO Waveform                     
+|     11 | lfoRate       |  LFO Rate                 
+|     12 | lfoAmount     |  LFO Amount                   
+|     13 | lfoSync       |  LFO Sync                 
+|     14 | delayType     |  Delay Type                   
+|     15 | tone          |  Tone             
+|     16 | timing        |  Timing               
+|     17 | lfoPolarity   |  LFO Polarity                     
+|     18 | bypassMode    |  Bypass Mode                    
+|     19 | feedbackMode  |  Feedback Mode                      
+
+
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| time        | feedback      | lfoWaveform  | lfoRate     | lfoAmount     | drive       | output        | mix        |
+
+
 --------------------------------------------------------------------------------
 
 changelog
 ================================================================================
+
+version 2023.02.18
+
+- finished MF-104S
+- touch ups for MF-102S, MF-103S
 
 version 2023.02.17
 
