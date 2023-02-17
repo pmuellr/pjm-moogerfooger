@@ -10,10 +10,10 @@ my computer, and then placing them in the patcher window.
 Each device has a small "up arrow" control near the top left, that can
 be used to open the actual plugin to interact with it.
 
-No idea how to get existing factory presets available in the Live device;
-you can list them, but not set them.  To use a preset, open the actual
-plugin (see above), select the preset, and the Live device's settings
-will change to that, so you can create a Live preset for those.
+I attempted to deal with presets, but ... it's a mess.  I think what I
+finally found was that selecting a preset did not reflect the parameter
+changes back to Max, so ... it *would* change the device settings, but
+then the device settings no longer matched the view in Live.
 
 [Moog Moogerfooger plugins]: https://www.moogmusic.com/products/moogerfooger-effects-plug-ins
 
@@ -59,8 +59,8 @@ Auto-mapped parameters as the following banks:
 
 | control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
-| env         | follow        | mix          |             | drive         | output      | cutoff        | res        |
-| slope       | link          | type         | resp        |               |             |               |            |
+| env         | follow        | mix          | slope       | drive         | output      | cutoff        | res        |
+| link        | type          | resp         | slope       |               |             |               |            |
 
 --------------------------------------------------------------------------------
 
@@ -96,8 +96,7 @@ Auto-mapped parameters as the following banks:
 
 | control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
-| lfo         | waveform      | rate         | sync        | drive         | output      | mix           | freq       |
-| range       | link          | carrier      | polarity    |               |             |               |            |
+| lfo         | waveform      | rate         | drive       | output        | mix         | range         | freq       |
 
 --------------------------------------------------------------------------------
 
@@ -139,6 +138,12 @@ Auto-mapped parameters as the following banks:
 
 changelog
 ================================================================================
+
+version 2023.02.17
+
+- finished MF-103S
+- plugin names changed, or `vst~` changed; plugin names updated so they load
+- added version labels to the plugins; will I remember to update? :-)
 
 version 2022.12.03
 
