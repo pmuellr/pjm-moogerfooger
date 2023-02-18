@@ -187,8 +187,47 @@ Auto-mapped parameters as the following banks:
 pjm-MF-105S MuRF (Multiple Resonant Filter Array)
 --------------------------------------------------------------------------------
 
-Next! Though I won't do the pattern editor, as that does not appear to be
-controllable via the plugin parameters
+![pjm-MF-105S Ableton device](./images/pjm-MF-105S.png)
+
+The Sync button is the toggle to the left of the Envelope knob.  The
+Link Gains control is the toggle to the right of the Output knob. The
+three toggles to the right of the Rate knob are Mode, Envelope Peaks,
+and Envelope Mode.
+
+Note that the "Pattern Editor" in the "back side" of the plugin is
+not controllable via the plugin, so there are no controls for it.
+
+<!--
+VST parameter number, parameter names, with associated Moog name:
+
+
+
+
+| param  | pjm name      | Moog name |
+| ------ | ------------- | --------- |
+|      2 | drive         |  Drive
+|      3 | output        |  Output Level
+|      4 | link          |  Link Gains
+|      5 | mix           |  Mix
+|      6 | env           |  Envelope
+|      7 | pattern       |  Pattern
+|      8 | rate          |  Rate
+|      9 | lfo           |  LFO
+|     10 | freq          |  Frequency
+|     11 | filter1       |  Filter 1
+|     12 | filter2       |  Filter 2
+|     13 | filter3       |  Filter 3
+|     14 | filter4       |  Filter 4
+|     15 | filter5       |  Filter 5
+|     16 | filter6       |  Filter 6
+|     17 | filter7       |  Filter 7
+|     18 | filter8       |  Filter 8
+|     19 | bpmSync       |  BPM Sync
+|     20 | mode          |  Mode
+|     21 | envPeaks      |  Envelope Peaks
+|     22 | envMode       |  Envelope Mode
+-->
+
 
 --------------------------------------------------------------------------------
 
