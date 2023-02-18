@@ -134,6 +134,8 @@ Auto-mapped parameters as the following banks:
 | lfo         | range         | rate         | sync        | drive         | output      | sweep         | res        |
 | stages      | link          | mode         | type        |               |             |               |            |
 
+--------------------------------------------------------------------------------
+
 pjm-MF-104S Analog Delay
 --------------------------------------------------------------------------------
 
@@ -174,6 +176,56 @@ Auto-mapped parameters as the following banks:
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
 | time        | feedback      | lfoWaveform  | lfoRate     | lfoAmount     | drive       | output        | mix        |
 
+--------------------------------------------------------------------------------
+
+pjm-MF-105S MuRF (Multiple Resonant Filter Array)
+--------------------------------------------------------------------------------
+
+Probably won't do this, as the matrix control "behind the covers" is not
+exposed as a parameter
+
+--------------------------------------------------------------------------------
+
+pjm-MF-106S 
+--------------------------------------------------------------------------------
+
+There never was a MF-106 device!
+
+--------------------------------------------------------------------------------
+
+
+pjm-MF-107S Freqbox
+--------------------------------------------------------------------------------
+
+![pjm-MF-107S Ableton device](./images/pjm-MF-107S.png)
+
+The Time Sync control is the toggle to the left of the Delay Range
+switch (short/long). The LFO Sync control is the toggle to the right of
+the LFO Rate knob. The Link Gains control is the toggle beneath
+the Mix knob.
+
+VST parameter number, parameter names, with associated Moog name:
+
+| param  | pjm name      | Moog name |
+| ------ | ------------- | --------- |
+|      2 | drive         |  Drive
+|      3 | output        |  Output Level
+|      4 | link          |  Link Gains
+|      5 | freq          |  Frequency
+|      6 | sync          |  Sync
+|      7 | waveform      |  Waveform
+|      8 | env           |  Envelope Amount
+|      9 | fm            |  FM Amount
+|     10 | mix           |  Mix
+|     11 | osc           |  Oscillator
+|     12 | envControls   |  Envelope Controls
+
+
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| freq        | sync          | waveform     | env         | fm            | mix         | drive         | output     |
 
 --------------------------------------------------------------------------------
 
@@ -183,6 +235,7 @@ changelog
 version 2023.02.18
 
 - finished MF-104S
+- finished MF-107S
 - touch ups for MF-102S, MF-103S
 
 version 2023.02.17
