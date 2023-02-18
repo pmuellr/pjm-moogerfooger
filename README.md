@@ -187,8 +187,8 @@ Auto-mapped parameters as the following banks:
 pjm-MF-105S MuRF (Multiple Resonant Filter Array)
 --------------------------------------------------------------------------------
 
-Probably won't do this, as the matrix control "behind the covers" is not
-exposed as a parameter
+Next! Though I won't do the pattern editor, as that does not appear to be
+controllable via the plugin parameters
 
 --------------------------------------------------------------------------------
 
