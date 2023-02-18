@@ -228,6 +228,14 @@ VST parameter number, parameter names, with associated Moog name:
 |     22 | envMode       |  Envelope Mode
 -->
 
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| drive       | mix           | output       | env         | pattern       | rate        | bpmSync       | lfo        |
+| filter 1    | filter 2      | filter 3     | filter 4    | filter 5      | filter 6    | filter 7      | filter 8   |
+
+
 
 --------------------------------------------------------------------------------
 
