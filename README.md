@@ -139,28 +139,12 @@ pjm-MF-104S Analog Delay
 
 ![pjm-MF-104S Ableton device](./images/pjm-MF-104S.png)
 
-xxx The LFO Sync control is the toggle to the left of the LFO Range
-button. The Link Gains and LFO Type controls are the toggles beneath
-the Output knob.  The Output Mode control is the menu below the LFO
-Type toggle.
+The Time Sync control is the toggle to the left of the Delay Range
+switch (short/long). The LFO Sync control is the toggle to the right of
+the LFO Rate knob. The Link Gains control is the toggle beneath
+the Mix knob.
 
 VST parameter number, parameter names, with associated Moog name:
-
-| param  | pjm name | Moog name |
-| ------ | -------- | --------- |
-|      2 | drive    | Drive |
-|      3 | output   | Output Level |
-|      4 | link     | Link Gains |
-|      5 | lfo      | LFO Amount |
-|      6 | range    | LFO Range |
-|      7 | rate     | LFO Rate |
-|      8 | sync     | LFO Sync |
-|      9 | sweep    | Sweep |
-|     10 | stages   | Stages |
-|     11 | res      | Resonance |
-|     12 | mode     | Output Mode |
-|     13 | type     | LFO Type |
-
 
 | param  | pjm name      | Moog name |
 | ------ | ------------- | --------- |
