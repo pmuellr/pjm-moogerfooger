@@ -39,6 +39,7 @@ pjm-MF-101S Filter
 The Link Gains, Envelope Type, and Envelope Response controls are the
 toggle buttons under the Output knob.
 
+<!--
 VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name | Moog name |
@@ -54,6 +55,7 @@ VST parameter number, parameter names, with associated Moog name:
 |   10   | res      | Resonance |
 |   11   | type     | Envelope Type |
 |   12   | resp     | Envelope Response |
+-->
 
 Auto-mapped parameters as the following banks:
 
@@ -74,6 +76,7 @@ button. The Link Gains and LFO Polarity controls are the toggles beneath
 the Output knob.  The Carrier Type control is the menu below the LFO
 Polarity toggle.
 
+<!--
 VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name | Moog name |
@@ -90,7 +93,7 @@ VST parameter number, parameter names, with associated Moog name:
 |     11 | freq     | Frequency |
 |     12 | carrier  | Carrier Type |
 |     13 | polarity | LFO Polarity |
-
+-->
 
 Auto-mapped parameters as the following banks:
 
@@ -110,6 +113,7 @@ button. The Link Gains and LFO Type controls are the toggles beneath
 the Output knob.  The Output Mode control is the menu below the LFO
 Type toggle.
 
+<!--
 VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name | Moog name |
@@ -126,6 +130,7 @@ VST parameter number, parameter names, with associated Moog name:
 |     11 | res      | Resonance |
 |     12 | mode     | Output Mode |
 |     13 | type     | LFO Type |
+-->
 
 Auto-mapped parameters as the following banks:
 
@@ -146,6 +151,7 @@ switch (short/long). The LFO Sync control is the toggle to the right of
 the LFO Rate knob. The Link Gains control is the toggle beneath
 the Mix knob.
 
+<!--
 VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name      | Moog name |
@@ -168,7 +174,7 @@ VST parameter number, parameter names, with associated Moog name:
 |     17 | lfoPolarity   |  LFO Polarity                     
 |     18 | bypassMode    |  Bypass Mode                    
 |     19 | feedbackMode  |  Feedback Mode                      
-
+-->
 
 Auto-mapped parameters as the following banks:
 
@@ -200,10 +206,10 @@ pjm-MF-107S Freqbox
 ![pjm-MF-107S Ableton device](./images/pjm-MF-107S.png)
 
 The Time Sync control is the toggle to the left of the Delay Range
-switch (short/long). The LFO Sync control is the toggle to the right of
-the LFO Rate knob. The Link Gains control is the toggle beneath
-the Mix knob.
+switch (short/long). The Oscillator control is the toggle below that. The 
+Envelope Controls control is the toggle below that.
 
+<!--
 VST parameter number, parameter names, with associated Moog name:
 
 | param  | pjm name      | Moog name |
@@ -219,7 +225,7 @@ VST parameter number, parameter names, with associated Moog name:
 |     10 | mix           |  Mix
 |     11 | osc           |  Oscillator
 |     12 | envControls   |  Envelope Controls
-
+-->
 
 Auto-mapped parameters as the following banks:
 
