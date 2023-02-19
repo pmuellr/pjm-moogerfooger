@@ -29,8 +29,6 @@ User Library.  Or whatever it is you do with your `*.amxd` files.
 details
 ================================================================================
 
---------------------------------------------------------------------------------
-
 pjm-MF-101S Filter
 --------------------------------------------------------------------------------
 
@@ -319,14 +317,50 @@ Auto-mapped parameters as the following banks:
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
 | time        | feedback      | lfoWaveform  | lfoRate     | lfoAmount     | drive       | output        | mix        |
 
+--------------------------------------------------------------------------------
+
+pjm-MF-109S Saturator
+--------------------------------------------------------------------------------
+
+![pjm-MF-109S Ableton device](./images/pjm-MF-109S.png)
+
+The Link Gains control is the toggle beneath the Output knob.
+
+<!--
+VST parameter number, parameter names, with associated Moog name:
+
+| param | pjm name     | Moog name |
+| ------| ------------ | --------- |
+|    2  | drive        | Drive                |
+|    3  | env          | Envelope Amount      |
+|    4  | follow       | Follow Rate          |
+|    5  | envSens      | Envelope Sensitivity |
+|    6  | output       | Output Level         |
+|    7  | link         | Link Gains           |
+|    8  | tone         | Tone                 |
+|    9  | color        | Color                |
+|   10  | noiseEnv     | Noise Env. Amount    |
+|   11  | envType      | Envelope Type        |
+|   12  | envResponse  | Envelope Response    |
+|   13  | noiseFilter  | Noise Filter         |
+|   14  | noiseType    | Noise Type           |
+
+-->
+
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| env         | follow        | envSens      | tone        | color         | noiseEnv    | drive         | output     |
+
+
 
 changelog
 ================================================================================
 
 version 2023.02.19
 
-- finished MF-105S
-- finished MF-108S
+- finished MF-105S, MF-108S, MF-109S woot
 
 version 2023.02.18
 
