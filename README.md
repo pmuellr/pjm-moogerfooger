@@ -197,11 +197,11 @@ and Envelope Mode.
 Note that the "Pattern Editor" in the "back side" of the plugin is
 not controllable via the plugin, so there are no controls for it.
 
+There's something funky going on with the filter sliders.  You can't
+drag them.  Only click somewhere on the slider line.  Grumble ...
+
 <!--
 VST parameter number, parameter names, with associated Moog name:
-
-
-
 
 | param  | pjm name      | Moog name |
 | ------ | ------------- | --------- |
@@ -234,7 +234,6 @@ Auto-mapped parameters as the following banks:
 |-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
 | drive       | mix           | output       | env         | pattern       | rate        | bpmSync       | lfo        |
 | filter 1    | filter 2      | filter 3     | filter 4    | filter 5      | filter 6    | filter 7      | filter 8   |
-
 
 
 --------------------------------------------------------------------------------
@@ -282,8 +281,52 @@ Auto-mapped parameters as the following banks:
 
 --------------------------------------------------------------------------------
 
+pjm-MF-108S ClusterFlux
+--------------------------------------------------------------------------------
+
+![pjm-MF-108S Ableton device](./images/pjm-MF-108S.png)
+
+The LFO Sync control is the toggle to the right of
+the LFO Rate knob. The Link Gains control is the toggle beneath
+the Mix knob.
+
+<!--
+VST parameter number, parameter names, with associated Moog name:
+
+| param | pjm name     | Moog name |
+| ------| ------------ | --------- |
+|     2 | drive        | Drive        |
+|     3 | output       | Output       |
+|     4 | link         | Link Gains   |
+|     5 | mix          | Mix          |
+|     6 | time         | Delay Time   |
+|     7 | range        | Range        |
+|     8 | feedback     | Feedback     |
+|     9 | lfoWaveform  | LFO Waveform |
+|    10 | lfoRate      | LFO Rate     |
+|    11 | lfoAmount    | LFO Amount   |
+|    12 | lfoSync      | LFO Sync     |
+|    13 | delayType    | Delay Type   |
+|    14 | tone         | Tone         |
+|    15 | timing       | Timing       |
+|    16 | phase        | Out Of Phase |
+|    17 | lfoPolarity  | LFO Polarity |
+-->
+
+Auto-mapped parameters as the following banks:
+
+| control 1   | control 2     | control 3    | control 4   | control 5     | control 6   | control 7     | control 8  |   
+|-------------|---------------|--------------|-------------|---------------|-------------|---------------|-------------
+| time        | feedback      | lfoWaveform  | lfoRate     | lfoAmount     | drive       | output        | mix        |
+
+
 changelog
 ================================================================================
+
+version 2023.02.19
+
+- finished MF-105S
+- finished MF-108S
 
 version 2023.02.18
 
