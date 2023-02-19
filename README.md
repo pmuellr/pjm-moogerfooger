@@ -381,3 +381,15 @@ version 2022.12.03
 version 2022.11.30
 
 - initial version
+
+so adorable
+================================================================================
+
+![pjm-MF-101S Ableton device](./images/pjm-MF-101S.png)
+![pjm-MF-102S Ableton device](./images/pjm-MF-102S.png)
+![pjm-MF-103S Ableton device](./images/pjm-MF-103S.png)
+![pjm-MF-104S Ableton device](./images/pjm-MF-104S.png)
+![pjm-MF-105S Ableton device](./images/pjm-MF-105S.png)
+![pjm-MF-107S Ableton device](./images/pjm-MF-107S.png)
+![pjm-MF-108S Ableton device](./images/pjm-MF-108S.png)
+![pjm-MF-109S Ableton device](./images/pjm-MF-109S.png)
